@@ -24,22 +24,52 @@ Tiempo de ejecución aproximado: 2-3 minutos (carga tablas pre-computadas).
 - `requirements.txt` — dependencias del proyecto
 
 ## Cómo ejecutar
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/final_anomaly.ipynb
 ```
 
-## Uso de IA
-Durante el desarrollo de este proyecto utilizamos Claude (Anthropic) para:
-- Depuración de código Python y pandas
-- Redacción de celdas markdown explicativas en los notebooks
-- Revisión de interpretaciones estadísticas
+El notebook carga automáticamente las tablas pre-computadas desde 
+Google Drive. Antes de ejecutar, asegúrate de tener acceso al Drive 
+del equipo con los siguientes archivos:
 
-Todo el análisis, las decisiones metodológicas y la interpretación de 
-resultados son responsabilidad del equipo.
+| Archivo | Descripción |
+|---------|-------------|
+| `tarea3_analytical_table_rm_final.csv` | Tabla analítica RM (output Tarea 3) |
+| `tarea3_eno_predictions_residuals.csv` | Predicciones y residuos ENO del modelo |
+| `tarea3_eno_residual_extremes.csv` | Residuos extremos ENO |
+| `tarea3_primary_eno_irr.csv` | IRR del modelo Negative Binomial ENO |
+
+Estos archivos son outputs de la Tarea 3 y **no se incluyen en el 
+repositorio** por su tamaño. Para reproducir el pipeline completo 
+desde cero, ejecuta primero `notebooks/Tarea3_G.Lammel_F.Rodriguez.ipynb`.
+
+## Datos originales
+
+Los datasets del curso no están incluidos en el repositorio por su tamaño:
+
+| Dataset | Fuente |
+|---------|--------|
+| `personas_censo2024.parquet` | [INE Censo 2024](https://censo2024.ine.gob.cl/resultados/) |
+| `viviendas_censo2024.parquet` | [INE Censo 2024](https://censo2024.ine.gob.cl/resultados/) |
+| `hogares_censo2024.parquet` | [INE Censo 2024](https://censo2024.ine.gob.cl/resultados/) |
+| `20241218_base_eno_final.csv` | [DEIS MINSAL](https://deis.minsal.cl/#datosabiertos) |
+| `EGRESOS_2024.zip` | Distribuido por el profesor (Canvas IELE756) |
+| `CIE-10.xlsx` | Distribuido por el profesor (Canvas IELE756) |
+| `Comunas.zip` | [BCN](https://www.bcn.cl/siit/mapas_vectoriales) |
 
 ## Video
-[Link al video — agregar antes de la entrega]
 
-## GitHub
-https://github.com/gsprlmml-create/iele756-region-XX
+[PEGAR LINK DEL VIDEO AQUÍ]
+
+## Uso de Inteligencia Artificial
+
+Durante el desarrollo de este proyecto utilizamos **Claude (Anthropic)** para:
+- Depuración de errores en código Python y pandas a lo largo de las tareas
+- Redacción y mejora de celdas markdown explicativas en los notebooks
+- Revisión de interpretaciones estadísticas y redacción del guion del video
+
+Todas las decisiones metodológicas, el análisis de los resultados y la 
+interpretación de los hallazgos son responsabilidad del equipo. El código 
+fue revisado, ejecutado y validado por ambos integrantes.

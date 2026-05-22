@@ -31,8 +31,8 @@ jupyter notebook notebooks/final_anomaly.ipynb
 ```
 
 El notebook carga automáticamente las tablas pre-computadas desde 
-Google Drive. Antes de ejecutar, asegúrate de tener acceso al Drive 
-del equipo con los siguientes archivos:
+Google Drive. Antes de ejecutar, hay que asegurarse de tener acceso al Drive 
+del equipo con los siguientes archivos o tener cargados en un drive con el nombre de MyDrive todos los archivos:
 
 | Archivo | Descripción |
 |---------|-------------|

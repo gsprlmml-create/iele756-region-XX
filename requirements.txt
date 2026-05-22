@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+geopandas>=0.13
+statsmodels>=0.14
+scipy>=1.10
+openpyxl>=3.1
+mapclassify>=2.5
+pyarrow>=12.0
+jupyter>=1.0
+zipfile36

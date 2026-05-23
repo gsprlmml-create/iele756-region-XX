@@ -58,7 +58,8 @@ Los datasets del curso no están incluidos en el repositorio por su tamaño:
 | `EGRESOS_2024.zip` | Distribuido por el profesor (Canvas IELE756) |
 | `CIE-10.xlsx` | Distribuido por el profesor (Canvas IELE756) |
 | `Comunas.zip` | [BCN](https://www.bcn.cl/siit/mapas_vectoriales) |
-| `Drive con todos los archivos` | [DRIVE(https://drive.google.com/drive/folders/1H-LeXqjSjvG1jBCOxOhhNR8_iFPX6Wox?usp=drive_link)]
+|  `Drive con todos los archivos` | [DRIVE](https://drive.google.com/drive/folders/1H-LeXqjSjvG1jBCOxOhhNR8_iFPX6Wox?usp=drive_link)|
+
   
 ## Video
 

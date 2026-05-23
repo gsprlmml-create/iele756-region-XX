@@ -13,6 +13,7 @@ Para reproducir el análisis necesitas:
 | `CIE-10.xlsx` | Distribuido por el profesor (Canvas IELE756) | Tabla lookup ICD-10 |
 | `Comunas.zip` | [BCN](https://www.bcn.cl/siit/mapas_vectoriales) | Shapefile comunas Chile |
 
-Los archivos de salida pre-computados de la Tarea 3 
-(tabla analítica, predicciones ENO, IRR del modelo) están 
-disponibles en el Google Drive compartido del curso.
+Los archivos de salida pre-computados de la Tarea 3 y todos los archivos
+(tabla analítica, predicciones ENO, IRR del modelo)
+En mi Drive
+https://drive.google.com/drive/folders/1H-LeXqjSjvG1jBCOxOhhNR8_iFPX6Wox?usp=drive_link

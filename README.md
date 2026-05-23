@@ -61,7 +61,7 @@ Los datasets del curso no están incluidos en el repositorio por su tamaño:
 
 ## Video
 
-[PEGAR LINK DEL VIDEO AQUÍ]
+https://youtu.be/VTZm6_9YhJU
 
 ## Uso de Inteligencia Artificial
 
